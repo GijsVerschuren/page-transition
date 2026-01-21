@@ -11,7 +11,7 @@ button.addEventListener('click', () => {
 
     
     // Create 1000 hearts with delay
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 100000; i++) {
         setTimeout(() => {
             const heart = document.createElement('div');
             heart.classList.add('heart', 'animate');
