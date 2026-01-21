@@ -35,8 +35,8 @@ button.addEventListener('click', () => {
             // Remove heart after animation completes
             setTimeout(() => {
                 heart.remove();
-            }, 5000);
-        }, i * 1000); // 2 second delay between each heart
+            }, 3000);
+        }, i * 400); // 2 second delay between each heart
     }
 
 
